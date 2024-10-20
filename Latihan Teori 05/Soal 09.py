@@ -5,6 +5,6 @@ def hextobin(nums):
 
 q9 = ["80E", "ABBA", "135AB", "DEFACED"]
 q9Res = hextobin(q9)
-print("Exercise 4 :")
+print("Soal 9:")
 for i in range(len(q9)):
     print(f"{i+1} {q9[i]} in binary = {q9Res[i]}")

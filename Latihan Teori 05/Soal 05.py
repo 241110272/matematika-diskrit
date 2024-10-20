@@ -13,6 +13,6 @@ def euler_totient(n):
 
 lat5_soal = [29, 49, 77, 169, 1717, 65537]
 lat5_hasil = [euler_totient(num) for num in lat5_soal]
-print("Latihan 5 :")
+print("Soal 5:")
 for i in range(len(lat5_soal)):
     print(f"{i+1}) ϕ{lat5_soal[i]} = {lat5_hasil[i]}")
