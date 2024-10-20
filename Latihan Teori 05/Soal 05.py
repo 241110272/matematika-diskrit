@@ -10,6 +10,7 @@ def euler_totient(n):
     if n > 1:
         result -= result // n
     return result
+
 lat5_soal = [29, 49, 77, 169, 1717, 65537]
 lat5_hasil = [euler_totient(num) for num in lat5_soal]
 print("Latihan 5 :")
